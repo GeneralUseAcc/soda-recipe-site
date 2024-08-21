@@ -3,6 +3,7 @@ import './App.css';
 import Soda from "./components/Soda";
 import SodaIngredient from './components/SodaIngredient';
 import SodaAmountInput from './components/SodaAmountInput';
+import ShowSodaTest from '.components/ShowSodaTest';
 
 function App(props) {
 
@@ -52,6 +53,8 @@ function App(props) {
         {ingredientList}
       </div>
       <SodaAmountInput setQuantity={setQuantity} />
+
+      <ShowSodaTest />
     </div>
   )
 }
